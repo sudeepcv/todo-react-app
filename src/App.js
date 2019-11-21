@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './bootstrap.css';
+import ToDoApp from './components/toDoApp/ToDoApp';
 
 
 
@@ -8,14 +9,14 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <h1>hellow world</h1>
-            <Cvs></Cvs>
+       
+            <ToDoApp />
+            
         </div>
     );
 }
-function Cvs(){
-    return (<h2>functionComponent</h2>);
-}
+
+
 
 
 
